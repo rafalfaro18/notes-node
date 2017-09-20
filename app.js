@@ -6,7 +6,7 @@ const _ = require('lodash');
 const notes = require('./notes.js');
 
 var command = process.argv[2];
-console.log(command);
+console.log(process.argv);
 
 if (command === 'add') {
   console.log('Adding new note');
@@ -15,7 +15,7 @@ if (command === 'add') {
 } else if (command === 'read') {
   console.log('Fetching note');
 } else if (command === 'remove') {
-  console.log('Removing note');
+  console.log('Removing noteg');
 } else {
   console.log('Command not recognized');
 }
