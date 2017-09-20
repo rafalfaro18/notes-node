@@ -7,8 +7,11 @@ const _ = require('lodash');
 
 var user = os.userInfo();
 
-console.log(_.isString(true));
-console.log(_.isString('Rafael'));
+var filreredArray = _.uniq(['Rafael',1,'Rafael',1,2,3,4]);
+console.log(filreredArray);
+
+// console.log(_.isString(true));
+// console.log(_.isString('Rafael'));
 
 //console.log('Result: ',notes.add(9,-2));
 
