@@ -7,7 +7,8 @@ const _ = require('lodash');
 
 var user = os.userInfo();
 
-
+console.log(_.isString(true));
+console.log(_.isString('Rafael'));
 
 //console.log('Result: ',notes.add(9,-2));
 
