@@ -15,7 +15,7 @@ if (command === 'add') {
 } else if (command === 'read') {
   console.log('Fetching note');
 } else if (command === 'remove') {
-  console.log('Removing noteg');
+  console.log('Removing note');
 } else {
   console.log('Command not recognized');
 }
