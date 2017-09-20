@@ -5,7 +5,7 @@ var addNote = (title,body) => {
 };
 
 var getAll = () => {
-  console.log('Getting all logs');
+  console.log('Getting all notes');
 };
 
 module.exports = {
